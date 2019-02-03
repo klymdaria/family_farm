@@ -1,0 +1,36 @@
+.ba-field{
+
+    &-photo{
+        height: 1000px;
+        background: url(../img/field.jpg);
+    }
+
+    &-info{
+        padding-left: 69px;
+        padding-bottom: 95px;
+
+        &__title{
+            padding: 75px 0 40px;
+            font-family:$body-font-family;
+            color: $black;
+        }
+    }
+
+    &-list{
+        padding-top: 90px;
+
+        span{
+            padding-left: 30px;
+        }
+
+        div + div {
+            margin-top: 80px;
+        }
+    }
+
+    &-item{
+        display: flex;
+        align-items: center;
+        color: #373737;
+    }
+}

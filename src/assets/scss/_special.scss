@@ -1,0 +1,97 @@
+.ba-offers {
+    background: url(../img/bg2.jpg) no-repeat -280%;
+    padding: 74px 0 110px;
+    margin-bottom: 75px;
+
+    .row {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &-info {
+        background: #daefb3 url(../img/honey.png) no-repeat 0 100%;
+        padding: 70px 97px 74px 67px;
+
+        p:last-of-type {
+            padding-bottom: 50px;
+        }
+    }
+}
+
+.ba-title-block {
+    font-family: $header-font-family;
+    font-weight: 600;
+    color: #000000;
+}
+
+.ba-basket {
+    background: url(../img/bg3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 700px;
+    margin-top: 100px;
+    position: relative;
+
+    .row {
+        position: absolute;
+        top: -80px;
+        left: 15%;
+    }
+
+    &-info {
+        background: #f2c078 url(../img/basket_fruit.png) no-repeat 100% 100%;
+        padding: 75px 98px 78px;
+
+        p:last-of-type {
+            padding-bottom: 42px;
+        }
+    }
+}
+
+.ba-sales {
+    padding-bottom: 150px;
+
+    &-title {
+        padding: 100px 0 65px;
+        text-align: center;
+        color: #000;
+        font-weight: 600;
+        font-family: $body-font-family;
+    }
+
+    &-info {
+        background: #fcecc9;
+        margin-bottom: 60px;
+
+        &__title {
+            font-family: $body-font-family;
+            line-height: 1;
+            color: $black;
+            padding: 30px 0 20px 25px;
+        }
+
+        &__price {
+            color: #373737;
+            font-size: 20px;
+            padding: 0 0 65px 25px;
+        }
+
+       
+    }
+
+    &-main{
+        position: relative;
+    }
+
+}
+
+.ba-cart{
+    background-color: #c7141d;
+    width: 67px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 187px;
+    right: 15px;
+}

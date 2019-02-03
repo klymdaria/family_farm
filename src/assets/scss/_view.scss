@@ -1,0 +1,68 @@
+.ba-say {
+    padding: 0;
+
+    &__title {
+        font-family: $body-font-family;
+        color: #171717;
+        text-align: center;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+
+    &__more{
+        padding-bottom: 100px;
+    }
+}
+
+.ba-row-think {
+    .ba-think+.ba-think {
+        margin-left: 15px;
+    }
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.ba-think {
+    background-color: #daefb3;
+    background-size: contain;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &__main {
+        color: #171717;
+        font-size: 20px;
+        font-style: italic;
+        padding: 42px 35px 10px 32px;
+        margin: 0;
+    }
+
+    &-person {
+        color: #171717;
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: -4%;
+
+
+        &-name {
+            text-align: right;
+            margin-top: -15px;
+            padding-right: 33px;
+
+            &__first {
+                text-decoration: underline;
+
+            }
+        }
+
+        &__photo{
+            padding-left: 33px;
+        }
+    }
+}

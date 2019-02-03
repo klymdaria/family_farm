@@ -1,0 +1,18 @@
+.ba-watch {
+    &__subtitle {
+        color: #373737;
+        font-size: 25px;
+        padding-bottom: 55px;
+        text-align: center;
+        display: block;
+    }
+
+    &-video{
+        background: #d64550 url(../img/right_bg.png) no-repeat;
+        background-size: cover;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
